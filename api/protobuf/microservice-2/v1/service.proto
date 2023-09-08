@@ -1,0 +1,17 @@
+syntax = "proto3";
+package dmoderation;
+
+option go_package = "github.com/example/microservice-2";
+
+service MicroserviceExample {
+  rpc GetExampleMessage(ExampleMessageRequest) returns (ExampleMessageResponse) {
+  }
+}
+
+message ExampleMessageRequest {
+  int64 id = 1;
+}
+
+message ExampleMessageResponse {
+  string value = 1;
+}

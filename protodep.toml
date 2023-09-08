@@ -1,0 +1,5 @@
+proto_outdir = "./api/protobuf/services"
+
+[[dependencies]]
+target = "github.com/Neumann88/microservice-1/api/protobuf/microservice-1"
+branch = "master"

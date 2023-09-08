@@ -1,0 +1,6 @@
+.idea
+.vscode
+
+api/protobuf/services
+internal/gen/proto
+!internal/gen/proto/empty

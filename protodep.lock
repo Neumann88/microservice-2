@@ -1,0 +1,9 @@
+proto_outdir = "./api/protobuf/services"
+
+[[dependencies]]
+  target = "github.com/Neumann88/microservice-1/api/protobuf/microservice-1"
+  subgroup = ""
+  revision = "3407f5a2be68eff54515b8cc25e964c7a619141f"
+  branch = "master"
+  path = ""
+  protocol = ""
